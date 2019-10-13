@@ -164,15 +164,15 @@ li {
 .btn {
   border-radius: 30px;
   font: 300 12px/26px "Poppins", sans-serif;
-  padding: 2px 33px 0;
-  color: #b4bcc3;
-  border-color: #e1e4e7;
+  padding: 3px 43px 0;
+  color: rgb(255, 136, 0);
+  border-color: rgb(255, 136, 0);
 }
 
 .btn:hover, .btn:focus {
-  background: #374048;
-  border-color: #374048;
-  color: #fff;
+  background: rgb(255, 136, 0);;
+  border-color: #rgb(255, 136, 0);;
+  color: white;
 }
 
 .btn-primary {

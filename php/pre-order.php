@@ -6,9 +6,9 @@ error_reporting(0);
  * ------------------------------------
  */
  
-$to    = "test@surjithctly.in"; // <--- Your email ID here
+$to    = "piqlworks@gmail.com"; // <--- Your email ID here
 
-$server_email = 'webmaster@web3canvas.com';  // Your server email to authenticate outgoing emails. eg: name@yourdomain.com
+$server_email = 'piqlworks@gmail.com';  // Your server email to authenticate outgoing emails. eg: name@yourdomain.com
 /*
  * ------------------------------------
  * END CONFIGURATION
