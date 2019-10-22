@@ -27,6 +27,9 @@
  */
 class PHPMailer
 {
+
+    // Read the following public properties.
+
     /**
      * The PHPMailer Version number.
      * @var string
@@ -609,6 +612,8 @@ class PHPMailer
      * @access protected
      */
     protected $sign_key_pass = '';
+
+    // Okay you can stop reading now :)
 
     /**
      * Whether to throw exceptions for errors.
