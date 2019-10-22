@@ -55,6 +55,11 @@ if ( isset( $email ) && isset( $name ) ) {
 	$mail->Subject = $subject;
 	$mail->Body = $msg;
 
+	/**
+	/ The below is failing due to the cofiguration of the PHPMailer() class. If you remove the entire if/else statement and simply
+	/ echo 'success';  then the button/form on the front end will validate as a success.
+	/
+	*/
 	// send the message, check for errors
 	if ( ! $mail->send() ) {
 		echo 'Mailer Error: ' . $mail->ErrorInfo;
